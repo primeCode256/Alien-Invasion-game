@@ -1,0 +1,156 @@
+*
+{
+    border-radius: 10px;
+    font-family: emulogic;
+    
+}
+
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: gray;
+    user-select: none;
+    
+}
+
+
+#gamebody
+{
+    background: -webkit-linear-gradient(top, #588063, #000) ;
+    background: linear-gradient(top, green, green) ;
+    margin-top: 50px;
+    font-family: cursive;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border: black;
+    user-select: none;
+    height: 850px;
+    width: 800px;
+    -webkit-text-stroke: 1.2px #000;
+    color: rgb(255, 170, 0);
+    font-size: 25px;
+    
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+   
+}
+
+#stage
+{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    user-select: none;
+    
+}
+
+#background
+{
+   
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   left: 50px;
+   bottom: 5%;
+   background-repeat: no-repeat;
+
+   
+  
+}
+
+#alien
+{
+   position: absolute;
+   top: 10%;
+   left: 60%;
+   user-select: none;
+
+}
+
+#explosion
+{
+    position: absolute;
+    bottom: 17%;
+    display: none;
+    user-select: none;
+
+}
+
+#fire
+{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    
+    display: none;
+    user-select: none;
+    
+}
+
+
+#gun
+{
+    position: absolute;
+    top: 73%;
+    left: 40%;
+    user-select: none;
+}
+
+#data_entry_section
+{
+    position: relative;
+    bottom: 6.5%;
+    align-items: center;
+    left: 12%;
+    font-size: larger;
+    user-select: none;
+}
+
+h1
+{
+    position: relative;
+    align-items: center;
+    left: 35%;
+    bottom: 5px;
+    
+    padding: none;
+}
+
+button{
+    font-family: cursive;
+    font-size: 30px;
+
+    border: 50%;
+    border-color: green;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(255, 115, 0);
+}
+
+#inputX
+{
+    padding: 5px 5px;
+    background-color: black;
+    color: yellow ;
+    font-size: 20px;
+    border-color: green;
+    
+}
+input::placeholder
+{
+    color: yellow;
+}
+
+#inputY
+{
+    padding: 5px 5px;
+    background-color: black;
+    color: yellow ;
+    font-size: 20px;
+    border-color: green;
+    
+}
